@@ -1,0 +1,3 @@
+Eggs|8
+Milk|40
+Bread|40
