@@ -1,0 +1,35 @@
+ python app.py                                      
+model.safetensors: 100%|██████████████████████████████████████████████████████████████| 990M/990M [00:37<00:00, 26.1MB/s]
+D:\GenAI-Asssignements-TuteDude\A36-HuggingFace-Integration\venv\Lib\site-packages\huggingface_hub\file_download.py:143: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\DS\.cache\huggingface\hub\models--google--flan-t5-base. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+generation_config.json: 100%|███████████████████████████████████████████████████████████████████| 147/147 [00:00<?, ?B/s]
+tokenizer_config.json: 2.54kB [00:00, 218kB/s]
+spiece.model: 100%|███████████████████████████████████████████████████████████████████| 792k/792k [00:00<00:00, 1.85MB/s]
+tokenizer.json: 2.42MB [00:00, 8.96MB/s]
+special_tokens_map.json: 2.20kB [00:00, 4.32MB/s]
+Device set to use cpu
+============================================================
+Simple HuggingFace Model Response
+============================================================
+Artificial Intelligence (AI) is a type of artificial intelligence. Artificial Intelligence is a type of artificial intelligence. Artificial Intelligence is a type of artificial intelligence. Artificial Intelligence is a type of artificial intelligence. Artificial Intelligence is a type of artificial intelligence. Artificial Intelligence is a type of artificial intelligence. Artificial Intelligence is a type of artificial intelligence. Artificial Intelligence is a type of artificial intelligence.
+
+---------------------------
+Topic: Machine Learning
+Machine learning is a type of machine learning.
+
+---------------------------
+Topic: Neural Networks
+a neural network is a network of neurons.
+
+---------------------------
+Topic: Cloud Computing
+Cloud computing is a type of computing that uses a large amount of resources. Cloud computing is a type of computing that uses a large amount of resources. Cloud computing is a type of computing that uses a large amount of resources. Cloud computing is a type of computing that uses a large amount of resources. Cloud computing is a type of computing that uses a large amount of resources. Cloud computing is a type of computing that uses a large amount of
+
+---------------------------
+You are a helpful AI tutor. Human: Explain Large Language Models in easy language.
+(venv) PS D:\GenAI-Asssignements-TuteDude\A36-HuggingFace-Integration>  
+
+
+
+This is the output that I got after running the app.py file. This is only for the reference....

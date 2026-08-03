@@ -1,0 +1,78 @@
+PS D:\GenAI-Asssignements-TuteDude\A34-Text-Summarization-using-LangChain> python app.py                           
+==================================================
+Total Characters: 4878               
+==================================================
+Cristiano Ronaldo is widely regarded as one of the greatest footballers in history. Born on February 5, 1985, in Funchal, Madeira, Portugal, he grew up in a humble family and developed a passion for football at a very young age. His father worked as a kit man at a local football club, while his mother worked as a cook and cleaner. Despite facing financial difficulties, Ronaldo's extraordinary talent and determination helped him overcome obstacles and pursue his dream of becoming a professional f
+
+Prompt Summary
+
+Here's a summary of Cristiano Ronaldo's life and career:
+
+Cristiano Ronaldo, born on February 5, 1985, in Funchal, Portugal, is widely regarded as one of the greatest footballers in history. He grew up in a humble family and developed a passion for football at a young age. Despite facing financial difficulties, Ronaldo's talent and determination helped him pursue his dream of becoming a professional footballer.
+
+Ronaldo began his football journey with Andorinha and Nacional before joining Sporting CP's youth academy in Lisbon. He was signed by Manchester United at 18 and developed into one of the world's best players under Sir Alex Ferguson. During his six seasons at the club, he won numerous titles, including three consecutive Premier League titles and the UEFA Champions League.
+
+In 2009, Ronaldo transferred to Real Madrid for a world-record transfer fee, where he won four UEFA Champions League titles, two La Liga championships, and four Ballon d'Or awards. He became Real Madrid's all-time leading scorer and consistently broke scoring records.
+
+Ronaldo later joined Juventus in Italy and then returned to Manchester United in 2021. He currently plays for Al Nassr in Saudi Arabia, bringing unprecedented global attention to football in the region. On the international stage, Ronaldo has represented Portugal in multiple UEFA European Championships and FIFA World Cups, becoming the nation's all-time leading scorer and winning the UEFA European Championship in 2016.
+
+Ronaldo is admired not only for his footballing achievements but also for his relentless work ethic and discipline. He is a successful entrepreneur with businesses in fashion, fitness, hotels, and fragrances, and is involved in numerous charitable activities. Throughout his career, Ronaldo has broken countless records and remains a symbol of excellence, determination, and success, inspiring future generations of athletes around the world.
+
+Short Summary
+
+Here's a summary of the text in 6 lines:
+
+Cristiano Ronaldo is widely regarded as one of the greatest footballers in history. Born in 1985 in Funchal, Portugal, he developed a passion for football at a young age and pursued his dream despite financial difficulties. Ronaldo played for top clubs like Manchester United, Real Madrid, and Juventus, winning numerous titles and individual awards. He is known for his relentless work ethic, discipline, and commitment to self-improvement. Ronaldo has broken countless records and is one of football's highest goal scorers and most decorated players. He remains a symbol of excellence, determination, and success, inspiring future generations of athletes.
+
+Bullet Summary
+
+Here's a summary of Cristiano Ronaldo's life and career in bullet points:
+
+**Early Life and Career:**
+
+* Born on February 5, 1985, in Funchal, Madeira, Portugal
+* Grew up in a humble family with a passion for football
+* Developed his skills at local clubs Andorinha and Nacional before joining Sporting CP's youth academy in Lisbon
+* Left his family at 12 to focus on football, showing immense courage and sacrifice
+
+**Manchester United (2003-2009):**
+
+* Signed for Manchester United at 18 after impressing in a match against the club
+* Developed into one of the world's best players under Sir Alex Ferguson
+* Won three consecutive Premier League titles, an FA Cup, two League Cups, the UEFA Champions League, and the FIFA Club World Cup
+* Won his first Ballon d'Or in 2008 after scoring 42 goals across all competitions
+
+**Real Madrid (2009-2018):**
+
+* Transferred to Real Madrid for a world-record transfer fee in 2009
+* Became the club's all-time leading scorer, netting over 450 goals in 438 appearances
+* Won four UEFA Champions League titles, two La Liga championships, multiple domestic and international trophies, and four more Ballon d'Or awards
+
+**Juventus (2018-2021) and Manchester United (2021-2022):**
+
+* Joined Juventus in Italy in 2018, winning two Serie A titles, a Coppa Italia, and several individual awards
+* Returned to Manchester United in 2021, continuing to score important goals and reach significant personal milestones
+
+**Al Nassr (2023-present):**
+
+* Signed with Al Nassr in Saudi Arabia, bringing unprecedented global attention to football in the region
+* Maintained an impressive level of fitness, professionalism, and performance, continuing to score goals and lead by example
+
+**International Career:**
+
+* Represented Portugal in multiple UEFA European Championships and FIFA World Cups
+* Became Portugal's all-time leading scorer and one of the most-capped players in international football history
+* Helped Portugal win the UEFA European Championship in 2016 and the inaugural UEFA Nations League in 2019
+
+**Personal Life and Legacy:**
+
+* Admired for his relentless work ethic, discipline, and commitment to self-improvement
+* Maintains peak physical condition through rigorous training, strict nutrition, and unwavering dedication
+* Successful entrepreneur with businesses in fashion, fitness, hotels, and fragrances
+* Involved in numerous charitable activities, donating to hospitals, children's organizations, and disaster relief efforts
+* Broken countless records, including becoming one of football's highest goal scorers and one of the most decorated players in the sport's history
+
+Stuff Chain Summary
+
+Cristiano Ronaldo is widely regarded as one of the greatest footballers in history. Born in 1985 in Funchal, Portugal, he developed a passion for football at a young age and overcame financial difficulties to pursue his dream. He began his career with Sporting CP, then joined Manchester United at 18, where he won numerous titles and individual awards. In 2009, he transferred to Real Madrid, becoming the club's all-time leading scorer and winning four UEFA Champions League titles. Ronaldo later played for Juventus and returned to Manchester United before joining Al Nassr in Saudi Arabia. He has represented Portugal in multiple international tournaments, winning the UEFA European Championship in 2016 and the UEFA Nations League in 2019. Ronaldo is admired for his relentless work ethic, discipline, and commitment to self-improvement, and has broken countless records throughout his career.
+Chunks: 7

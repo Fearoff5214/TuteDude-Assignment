@@ -1,0 +1,13 @@
+Task 9:
+
+1. When to prefer cloud models?
+Use cloud models when you need high-quality responses, better reasoning, and don't mind using an internet connection.
+
+2. When to prefer open-source models?
+Use open-source models when privacy, offline access, and avoiding API costs are important.
+
+3. Trade-offs in production
+Cloud models are easier to scale and generally provide stronger performance, while local models give you more control and privacy but require your own compute resources.
+
+4. Cost and scalability
+Cloud models charge per usage but scale easily. Open-source models don't charge per request but require hardware to run and maintain.

@@ -1,0 +1,1 @@
+console.log("GenAI Code Assistant Landing Page Loaded");

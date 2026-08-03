@@ -1,0 +1,12 @@
+im gonna perform the task with my open api key and I dont want to share it publically. Anyhow for my github progress, im gonna push all the assignments including this assignment to the Github
+so ive put my api key in env file. I will never share it publically.
+use your open api key to test. Ive tested the entire file and it is weorking fine
+
+To create the open api key, go to 
+
+https://platform.openai.com/api-keys
+
+and login using your google account and then click the "create new secret" and give the name for it to identify
+and in the billing section add the billing account and create the api key
+
+dont share the api key publically even though if your submitting the assignment or pushing it to github

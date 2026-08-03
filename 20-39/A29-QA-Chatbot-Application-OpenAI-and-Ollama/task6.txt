@@ -1,0 +1,6 @@
+| Feature          | Cloud Model (Groq)                         | Ollama                                 |
+| ---------------- | ------------------------------------------ | -------------------------------------- |
+| Response Quality | Excellent and accurate                     | Good, but depends on the local model   |
+| Latency          | Fast (requires internet)                   | Fast after the model is loaded locally |
+| Cost             | Free tier available; paid for higher usage | Free after downloading the model       |
+| Privacy          | Requests are processed in the cloud        | Data remains on the local machine      |

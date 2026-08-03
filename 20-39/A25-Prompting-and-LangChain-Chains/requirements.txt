@@ -1,0 +1,10 @@
+langchain
+langchain-openai
+langchain-community
+langchain-core
+faiss-cpu
+pydantic
+pypdf
+pandas
+openpyxl
+tiktoken

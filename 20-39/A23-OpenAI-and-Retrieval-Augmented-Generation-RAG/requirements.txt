@@ -1,0 +1,12 @@
+langchain
+langchain-community
+langchain-openai
+langchain-text-splitters
+openai
+faiss-cpu
+wikipedia
+youtube-transcript-api
+tiktoken
+pypdf
+beautifulsoup4
+lxml

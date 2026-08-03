@@ -1,0 +1,5 @@
+Artificial Intelligence (AI) enables machines to perform tasks that normally require human intelligence.
+Machine Learning is a subset of AI that allows systems to learn from data.
+Deep Learning uses neural networks with multiple layers to solve complex problems.
+Generative AI creates new content such as text, images, audio and code.
+Large Language Models (LLMs) are trained on massive text datasets and are capable of answering questions, summarizing information and generating content

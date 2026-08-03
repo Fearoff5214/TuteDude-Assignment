@@ -1,0 +1,55 @@
+Task 3: Compare Deployment Platforms
+1. Streamlit Cloud vs Hugging Face Spaces
+Streamlit Community Cloud	                              Hugging Face Spaces
+Designed mainly for Streamlit applications     	Designed for AI and Machine Learning applications.
+Easy GitHub integration                         Supports GitHub integration and file uploads.
+Very easy to deploy Streamlit apps              Supports multiple SDKs like Gradio, Docker and Static.
+Good for dashboards and web applications	    Good for showcasing AI models and ML demos.
+
+Uses Secrets to securely store API keys	  -   Uses Repository Secrets or Variables to store API keys
+
+
+2. Pros and Cons
+Streamlit Community Cloud
+
+Pros
+
+Very easy to deploy Streamlit applications.
+Direct GitHub integration.
+Automatic deployment after every GitHub push.
+Simple to manage secrets and environment variables.
+
+Cons
+
+Limited free resources.
+Does not support running local Ollama models.
+Requires cloud APIs like Groq or OpenAI for deployed LLM applications.
+Hugging Face Spaces
+
+Pros
+
+Designed specifically for AI and Machine Learning applications.
+Supports multiple deployment options such as Gradio, Docker and Static.
+Easy to share AI demos with others.
+
+Cons
+
+Free tier has resource limitations.
+Some deployment SDKs may not be available depending on the account plan.
+Build times may be longer compared to Streamlit Cloud.
+3. When to Use Which Platform
+
+Use Streamlit Community Cloud when:
+
+Deploying Streamlit applications.
+Creating dashboards and data visualization apps.
+Building quick AI demos using cloud APIs like Groq or OpenAI.
+
+Use Hugging Face Spaces when:
+
+Sharing AI and Machine Learning projects.
+Deploying Gradio-based applications.
+Demonstrating LLMs, computer vision, NLP, or other AI models.
+Observation
+
+During this assignment, I successfully deployed my application on Streamlit Community Cloud using the Groq API with the Llama 3.3 70B Versatile model. While attempting the Hugging Face deployment, I observed that my free Hugging Face account only provided Static Spaces, whereas Gradio and Docker Spaces required a PRO subscription. Because of this platform limitation, I could not deploy the Python-based application on Hugging Face Spaces using the required SDK.

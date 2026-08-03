@@ -1,0 +1,12 @@
+streamlit
+langchain
+langchain-core
+langchain-community
+langchain-groq
+pypdf
+chromadb
+python-dotenv
+langchain-chroma
+faiss-cpu
+langchain-text-splitters
+langchain-ollama

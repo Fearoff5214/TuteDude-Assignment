@@ -1,0 +1,13 @@
+Task 11 Answers
+
+1. Why is Groq suitable for RAG chatbots?
+Groq provides very low-latency inference, making document question-answering fast and responsive. 
+It integrates well with LangChain and supports high-performance open-source LLMs
+
+2. Difference between Groq RAG and OpenAI RAG
+Groq RAG uses Groq-hosted open-source models, while OpenAI RAG uses OpenAI's proprietary models,
+the RAG pipeline (retrieval, context injection, prompting) is essentially the same; the main differences are the LLM provider, performance characteristics, and pricing
+
+3. Role of Streamlit in rapid GenAI prototyping
+Streamlit enables developers to build interactive interfaces quickly with minimal code, 
+It simplifies creating chat interfaces, file uploads, and displaying responses, making it well suited for rapid prototyping of GenAI applications

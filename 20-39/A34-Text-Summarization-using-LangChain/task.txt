@@ -1,0 +1,66 @@
+Task 4:
+1. What is Stuff Chain?
+Stuff chain combines the entire document into one prompt and sends it to the LLM for summarization
+
+2. When is it suitable?
+It is suitable for short documents that fit within the model's context window
+
+3. Limitations
+Cannot handle very large documents, may exceed token limits, and it is less effective for lengthy inputs
+
+Task 6:
+
+     Prompt                                 Stuff                             
+
+Uses custom prompt              Uses built-in summarization chain 
+More customizable                       Simpler to use                    
+Good for small tasks                Better structured summaries       
+Manual prompt design                      Minimal coding                    
+
+Task 7
+
+Why Map-Reduce-Large documents may exceed the model's token limit, so they are divided into smaller chunks
+
+Map Step-Each chunk is summarized independently
+
+Reduce Step-All chunk summaries are combined into one final summary
+
+Task 10 from Assignment:
+
+How Refine Works: The first chunk is summarized. Each remaining chunk is processed one by one, refining the existing summary using the new information
+
+
+Difference from Map-Reduce:
+
+     Refine                              Map Reduce 
+
+Sequential                              Parallel                 
+Keeps improving summary            Combines chunk summaries 
+Better coherence                      Faster execution 
+
+Task 12 Comparison:
+
+Method	    Quality	      Speed	       Best Use
+
+Prompt	     Medium	       Fast	       Small text
+Stuff	      Good	       Fast	     Medium documents
+Map Reduce	Very Good	  Medium	 Large documents
+Refine	    Excellent	   Slow	     Complex documents
+
+
+Task 14 from the Assignment:
+
+1. Best strategy for very long documents
+
+Map-Reduce is generally the best choice because it efficiently processes large documents by splitting them into chunks and then combining their summaries
+
+2. Trade-offs between speed and quality: 
+Prompt-based: Fastest but limited to short inputs
+Stuff: Fast but constrained by the model's context window
+Map-Reduce: Balanced speed and quality for long documents
+Refine: Highest coherence and quality but slower due to sequential processing
+
+3. Real-world use cases
+Prompt-based: Summarizing emails, short articles, or notes
+Stuff: Reports or documents that fit within the context window
+Map-Reduce: Research papers, books, meeting transcripts, and lengthy PDFs
