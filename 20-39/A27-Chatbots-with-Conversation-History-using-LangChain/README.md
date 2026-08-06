@@ -1,6 +1,6 @@
 Assignment 27 - Chatbots with Conversation History using LangChain
 
-This project demonstrates how to build a stateful chatbot using LangChain and Groq. The chatbot remembers previous conversations, trims old messages to manage context length, and answers follow-up questions based on conversation history.
+I built this project to demonstrate how to build a stateful chatbot using LangChain and Groq. The chatbot remembers previous conversations, trims old messages to manage context length, and answers follow-up questions based on conversation history.
 
 Features
 

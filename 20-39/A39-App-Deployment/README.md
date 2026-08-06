@@ -9,7 +9,7 @@ This assignment demonstrates the deployment of my CodeLlama Coding Assistant on 
 - Debug Python code
 - Optimize Python code
 
-## Technologies Used
+## Tech Stack
 
 - Python
 - Streamlit
@@ -96,7 +96,6 @@ The application features remain the same after deployment.
 - Explain Code
 - Debug Code
 - Optimize Code
-
 
 ## Deployment Observation
 

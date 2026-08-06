@@ -1,6 +1,6 @@
 # Assignment 24 - Ollama Chatbot
 
-## Technologies Used
+## Tech Stack
 
 - Python
 - Ollama
@@ -8,7 +8,7 @@
 - LangSmith
 - Llama 3.2
 
-## How to Run
+## How to run this locally
 
 1. Install Ollama from https://ollama.com
 2. Pull the model:

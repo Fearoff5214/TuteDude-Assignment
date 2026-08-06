@@ -20,7 +20,6 @@ Features
 - Natural language to SQL
 - Dynamic SQL query execution
 
-
 pip install -r requirements.txt
 
 4. Create a .env file
@@ -42,5 +41,4 @@ iv addded the screenshots of the mysql workbench and then I intruppted the kerne
 install these verions inorder to run the file successfully without any errors
 
 "pip install langchain==0.3.27 langchain-community==0.3.27 langchain-groq==0.3.7 sqlalchemy==2.0.41 python-dotenv==1.1.1 pymysql==1.1.1"
-
 

@@ -1,6 +1,6 @@
 # Assignment 23 - OpenAI & Retrieval-Augmented Generation (RAG)
 
-## Technologies Used
+## Tech Stack
 
 * Python
 * LangChain
@@ -11,7 +11,7 @@
 
 I used the openai's api key and it is kept inside the env file and im not going to push the env file as it is my secret. put your openapi key and it will work. 
 
-## Installation
+## Getting Started
 
 Install the required packages:
 
@@ -28,7 +28,7 @@ pip install tiktoken
 
 Set your OpenAI API key before running the notebook.
 
-## How to Run
+## How to run this locally
 
 1. Install all required packages.
 2. Configure your OpenAI API key.

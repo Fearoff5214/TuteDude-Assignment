@@ -1,11 +1,9 @@
 import streamlit as st
 import pickle
 
-# Load saved files
 movies = pickle.load(open("movies.pkl", "rb"))
 similarity = pickle.load(open("similarity.pkl", "rb"))
 
-# Recommendation function
 def recommend(movie_name, top_n=5):
 
     if movie_name not in movies["title"].values:
@@ -18,8 +16,6 @@ def recommend(movie_name, top_n=5):
         recommendations.append(movies.iloc[i[0]].title)
     return recommendations
 
-
-# Streamlit UI
 st.set_page_config(page_title="Movie Recommendation System", page_icon="🎬")
 st.title("🎬 Movie Recommendation System")
 st.write("Select a movie to get similar movie recommendations.")

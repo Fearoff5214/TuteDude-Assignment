@@ -52,7 +52,6 @@ How to Run
 
 pip install -r requirements.txt
 
-
 2. Place the PDF file in the project folder.
 3. Open the notebook.
 4. Enter your Groq API Key when prompted.
@@ -67,11 +66,9 @@ Sample Questions
 - What technical skills are listed?
 - Explain the previous answer.
 
-
 Conclusion
 
-This project demonstrates a complete conversational RAG chatbot using LangChain, FAISS, HuggingFace Embeddings, and Groq. The chatbot retrieves information from documents, remembers previous conversations, and answers follow-up questions based on the retrieved context
-
+I built this project to demonstrate a complete conversational RAG chatbot using LangChain, FAISS, HuggingFace Embeddings, and Groq. The chatbot retrieves information from documents, remembers previous conversations, and answers follow-up questions based on the retrieved context
 
 I stored the groq api in the colab secrets and im not gonna pass this as a file as it will put me in danger
 sharing the env variables and values in high risk and im not sharing it now. let me give how the env should look like

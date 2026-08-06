@@ -26,7 +26,6 @@ prompt = PromptTemplate(
     input_variables=["text"],
     template="""You are an expert summarizer.Summarize the following text{text}""")
 
-#this prompt template willl be used to create the chain
 chain = prompt | llm
 summary = chain.invoke({"text": text})
 print("\nPrompt Summary\n")
@@ -41,7 +40,6 @@ chain = short_prompt | llm
 print("\nShort Summary\n")
 print(chain.invoke({"text": text}).content)
 
-#lets try the Bullet Summary
 bullet_prompt = PromptTemplate(
     input_variables=["text"],
     template="""Summarize the following text using bullet points{text}""")
@@ -70,7 +68,6 @@ refine_summary = refine_chain.invoke(docs)
 print("\nRefine Summary\n")
 print(refine_summary["output_text"])
 
-#now lets perform the reusable functions in this code
 def summarize_document(text, method="map_reduce"):
     document = Document(page_content=text)
     splitter = RecursiveCharacterTextSplitter(chunk_size=1000,chunk_overlap=100)
@@ -94,12 +91,10 @@ def summarize_document(text, method="map_reduce"):
     else:
         return "Invalid Method"
     
-#examples can be like print(summarize_document(text, "stuff"))
 
 print(summarize_document(text, "stuff"))
 print(summarize_document(text, "map_reduce"))
 print(summarize_document(text, "refine"))
-
 
 #Task 9
 print("\nChunk Summaries\n")

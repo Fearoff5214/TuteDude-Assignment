@@ -6,9 +6,6 @@ from langchain.agents import AgentType
 from langchain_community.tools import Tool
 import numexpr
 
-
-# this block is for the Calculator Tool
-
 def calculator(expression):
     try:
         result = numexpr.evaluate(expression)
@@ -17,12 +14,8 @@ def calculator(expression):
         return f"Calculation Error: {e}"
 math_tool = Tool(name="Calculator",func=calculator,description="Useful for solving mathematical expressions.")
 
-
-# this is a LLM
-
 llm = ChatOllama(model="llama3.2",temperature=0)
 agent = initialize_agent(tools=[math_tool],llm=llm,agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,verbose=True)
-# Session State
 
 st.title("Text-to-Math Agent")
 if "history" not in st.session_state:

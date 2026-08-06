@@ -25,7 +25,6 @@ Create Virtual Environment
 python -m venv venv
 venv\Scripts\activate
 
-
 Install Dependencies
 
 pip install -r requirements.txt
@@ -33,7 +32,6 @@ pip install -r requirements.txt
 Configure Environment Variables
 
 Create a .env file in the project root.
-
 
 GROQ_API_KEY=your_groq_api_key
 

@@ -1,6 +1,6 @@
 HuggingFace Integration with LangChain
 
-This project demonstrates how to integrate HuggingFace models with LangChain.
+I built this project to demonstrate how to integrate HuggingFace models with LangChain.
 
 Features
 

@@ -22,5 +22,4 @@
 - Created a reusable function to load and split documents from local folders and web URLs.
 - Compared different text splitting approaches and recorded observations.
 
-
 This assignment provided hands-on experience with LangChain document loaders and text splitters. These techniques form the foundation for building Retrieval-Augmented Generation (RAG) systems and AI-powered document assistants.

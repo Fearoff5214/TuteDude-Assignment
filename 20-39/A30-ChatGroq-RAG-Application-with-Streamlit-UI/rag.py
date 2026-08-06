@@ -31,6 +31,3 @@ def get_answer(question, retriever):
     response = chain.invoke({"context": context,"question": question})
     return response.content
 
-
-#studied from both chatgpt and stackoverflow that using the functuon will help to get the answer from retreiver
-#and it will be easy to maintain the code

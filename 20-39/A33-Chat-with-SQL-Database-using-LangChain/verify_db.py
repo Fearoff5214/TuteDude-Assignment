@@ -17,5 +17,3 @@ for row in cursor.fetchall():
     print(row)
 conn.close()
 
-
-#after running this file. it will print all the data that is present in the database

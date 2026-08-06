@@ -1,6 +1,6 @@
 # Assignment 34 - Text Summarization using LangChain
 
-This project demonstrates different text summarization techniques using LangChain and a Large Language Model (LLM)
+I built this project to demonstrate different text summarization techniques using LangChain and a Large Language Model (LLM)
 
 Features
 
@@ -16,7 +16,6 @@ Technologies Used
 * LangChain
 * Groq LLM
 * Python Dotenv
-
 
 How to Run
 

@@ -2,7 +2,7 @@ Assignment 37: PDF Query RAG using AstraDB
 
 1. Overview
 
-This project demonstrates a Retrieval-Augmented Generation (RAG) application using LangChain and DataStax AstraDB. The application loads a PDF, creates embeddings, stores them in AstraDB, and retrieves relevant information to answer user queries.
+I built this project to demonstrate a Retrieval-Augmented Generation (RAG) application using LangChain and DataStax AstraDB. The application loads a PDF, creates embeddings, stores them in AstraDB, and retrieves relevant information to answer user queries.
 
 2. Technologies Used
 
@@ -55,7 +55,6 @@ These credentials are required to connect LangChain with AstraDB.
 
 Install the required libraries.
 
-
 pip install langchain
 pip install langchain-community
 pip install langchain-astradb
@@ -104,4 +103,4 @@ FAISS is a local vector database mainly used for development and testing. AstraD
 
 9. Conclusion
 
-This project demonstrates how to build a simple RAG application using LangChain and AstraDB. It stores document embeddings in a cloud vector database and retrieves relevant information to generate accurate answers from the uploaded PDF.
+I built this project to demonstrate how to build a simple RAG application using LangChain and AstraDB. It stores document embeddings in a cloud vector database and retrieves relevant information to generate accurate answers from the uploaded PDF.

@@ -7,13 +7,11 @@ from langchain_core.prompts import ChatPromptTemplate, PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
 #loading the model only one time so using this ew can call for other tasks also. Learned this from previous assignment
-#which is reusable functions
 
 pipe = pipeline("text2text-generation",model="google/flan-t5-base",max_new_tokens=100,)
 llm = HuggingFacePipeline(pipeline=pipe)
 
 #this is task 1 according to the assignment
-# HuggingFace Model
 
 print("=" * 60)
 print("Simple HuggingFace Model Response")

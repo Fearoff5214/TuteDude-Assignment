@@ -7,15 +7,11 @@ from langchain_community.agent_toolkits import SQLDatabaseToolkit
 from langchain_community.agent_toolkits.sql.base import create_sql_agent
 
 load_dotenv()
-# Connect to SQLite database
 db = SQLDatabase.from_uri("sqlite:///company.db")
 
-# Loading the Groq LLM from the env variable
 llm = ChatGroq(model="llama-3.1-8b-instant",api_key=os.getenv("GROQ_API_KEY"))
-# Createng the toolkit
 toolkit = SQLDatabaseToolkit(db=db,llm=llm)
 
-# Creating theSQL Agent
 agent = create_sql_agent(llm=llm,toolkit=toolkit,verbose=True, agent_executor_kwargs={"handle_parsing_errors": True})
 print("SQL Agent Created Successfully!")
 

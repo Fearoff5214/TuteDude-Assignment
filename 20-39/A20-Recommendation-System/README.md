@@ -1,6 +1,6 @@
 # Assignment 20: Movie Recommendation System
 
-## Dataset
+## Data Source
 
 Dataset: TMDB 5000 Movie Dataset
 
@@ -14,14 +14,14 @@ Files Used:
 - tmdb_5000_movies.csv
 - tmdb_5000_credits.csv
 
-## Technologies Used
+## Tech Stack
 
 - Python
 - Pandas
 - Scikit-learn
 - Streamlit
 
-## Features
+## What it does
 
 - Data preprocessing
 - TF-IDF vectorization
@@ -30,7 +30,7 @@ Files Used:
 - Streamlit web application
 - Deployment on Render
 
-## How to Run
+## How to run this locally
 
 1. Install dependencies:
    pip install -r requirements.txt
@@ -44,4 +44,4 @@ https://github.com/DEVANAND-JAYARAMAN/GenAI-Asssignements-TuteDude
 Render URL:
 https://genai-asssignements-tutedude.onrender.com/
 
-This project demonstrates an end-to-end content-based recommendation system, from data preprocessing and feature extraction to deployment using Streamlit and Render.
+I built this project to demonstrate an end-to-end content-based recommendation system, from data preprocessing and feature extraction to deployment using Streamlit and Render.

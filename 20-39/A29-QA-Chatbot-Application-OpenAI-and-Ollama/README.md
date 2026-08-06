@@ -1,6 +1,5 @@
 # Assignment 29: Q&A Chatbot Application (Cloud LLM & Ollama)
 
-
 This project implements a Question & Answer chatbot using LangChain with two different Large Language Models:
 
 - Cloud LLM (Groq)
@@ -17,7 +16,6 @@ Tech Stack
 - Ollama
 - Llama 3
 - Python Dotenv
-
 
 2. Install dependencies
 
@@ -45,9 +43,7 @@ python -m streamlit run app.py
 
 The application will opened at this web address after running the above command:    
 
-
 http://localhost:8501
-
 
 Usage
 
@@ -58,7 +54,6 @@ Usage
 3. Enter a question.
 4. Click **Ask**.
 5. View the generated response.
-
 
 Sample Questions to test the model
 

@@ -1,21 +1,17 @@
 import streamlit as st
 from langchain_groq import ChatGroq
 
-# page setup
 st.set_page_config(page_title="Code Assistant",layout="wide")
 
 st.title("💻 Code Assistant")
 st.write("Generate, explain, debug and optimize Python code.")
 
-# load groq model
 llm = ChatGroq(model="llama-3.3-70b-versatile",api_key=st.secrets["GROQ_API_KEY"],temperature=0.2)
 
 # task selection
 task = st.selectbox("Select Task",("Generate Code","Explain Code","Debug Code","Optimize Code"))
-# user input
 user_input = st.text_area("Enter your prompt or code",height=250)
 
-# prompt templates
 prompts = {
     "Generate Code":
 f"""
@@ -65,7 +61,6 @@ Make it:
 Return the improved code.
 """}
 
-# function to get response
 def get_response(prompt):
     response = llm.invoke(prompt)
     return response.content

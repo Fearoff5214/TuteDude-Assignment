@@ -1,19 +1,16 @@
 import streamlit as st
 from langchain_ollama import ChatOllama
 
-# Page setup using this code base
 st.set_page_config(page_title="CodeLlama Assistant", page_icon="💻", layout="wide")
 st.title("CodeLlama Coding Assistant")
 st.write("Generate, explain, debug and optimize Python code using CodeLlama.")
 
-# Load the model using this code base
 llm = ChatOllama(model="codellama:7b", temperature=0.2)
 st.success("CodeLlama model loaded successfully.")
 
 # task selection
 task = st.selectbox("Select Task",("Generate Code", "Explain Code", "Debug Code", "Optimize Code"))
 
-# user to input something
 user_input = st.text_area("Enter your prompt or code", height=250)
 
 prompts = {
